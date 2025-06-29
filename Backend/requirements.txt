@@ -1,0 +1,7 @@
+agentpy
+networkx
+numpy
+Flask
+flask-cors
+flask-socketio
+eventlet
