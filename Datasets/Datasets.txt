@@ -1,4 +1,6 @@
-http://www.sociopatterns.org/2018/11/new-data-sets-published-co-presence-and-face-to-face-contacts    -- The current Datasets
+http://www.sociopatterns.org/2018/11/new-data-sets-published-co-presence-and-face-to-face-contacts    -- Link for Zenodo
+
+https://zenodo.org/records/2540795   -- Zenodo website where the 3 datasets are present
 
 https://snap.stanford.edu/data/soc-Epinions1.html	  -- Directed
 
