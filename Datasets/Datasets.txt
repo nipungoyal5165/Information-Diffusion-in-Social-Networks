@@ -1,0 +1,7 @@
+https://snap.stanford.edu/data/soc-Epinions1.html	 -- Directed
+
+https://snap.stanford.edu/data/soc-Pokec.html 		 -- Directed
+
+https://snap.stanford.edu/data/com-Youtube.html		 -- Undirected	
+
+http://www.sociopatterns.org/2018/11/new-data-sets-published-co-presence-and-face-to-face-contacts/ the current data sets
