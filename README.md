@@ -123,9 +123,11 @@ capstone/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/       # React components (Navbar, Controls, etc.)
-│   │   ├── pages/            # Graph and Home pages
+│   │   ├── App.css           # Main css file
+│   │   ├── main.jsx          # jsx file
+│   │   ├── index.css         # css file
 │   │   └── App.jsx           # Main React file
-│   ├── public/
+│   ├── public/               # Logo
 │   ├── package.json          # Frontend dependencies
 │   └── ...
 └── README.md
