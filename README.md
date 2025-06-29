@@ -15,7 +15,7 @@ This project is a full-stack web application that simulates how messages and ide
 
 ## Demo Video
 
-A presentation demo is available on Google Drive accessible through https://drive.google.com/file/d/157biwblCbeccgh32D812i0iQPZG1u23o/view?usp=sharing
+A demo video of the MVP is available on Google Drive accessible through https://drive.google.com/file/d/157biwblCbeccgh32D812i0iQPZG1u23o/view?usp=sharing
 
 ---
 
