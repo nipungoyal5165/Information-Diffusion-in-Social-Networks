@@ -1,0 +1,40 @@
+:auto LOAD CSV WITH HEADERS FROM 'file:///metadata_InVS13.csv' AS row
+CALL {
+WITH row
+CREATE (n : Person {Pid: row.USER, UserType : row.GRP})
+} IN TRANSACTIONS OF 1000 ROWS;
+
+LOAD CSV WITH HEADERS FROM 'file:///InVS15_preprocessed.csv' AS row
+MATCH (src:Person {Pid : row.SRC}), (dest:Person {Pid : row.DEST})
+CREATE (src)-[r:follows {FREQ : row.NormFreq} ]->(dest)
+
+
+
+:auto LOAD CSV WITH HEADERS FROM 'file:///metadata_InVS15.csv' AS row
+CALL {
+WITH row
+CREATE (n : Person {Pid: row.USER, UserType : row.GRP})
+} IN TRANSACTIONS OF 1000 ROWS;
+
+LOAD CSV WITH HEADERS FROM 'file:///InVS15_preprocessed.csv' AS row
+MATCH (src:Person {Pid : row.SRC})
+MATCH (dest:Person {Pid : row.DEST})
+CREATE (src)-[r:follows {FREQ : row.NormFreq} ]->(dest)
+
+
+
+:auto LOAD CSV WITH HEADERS FROM 'file:///metadata_LyonSchool.csv' AS row
+CALL {
+WITH row
+CREATE (n : Person {Pid: row.PID, UserType : row.GRP})
+} IN TRANSACTIONS OF 1000 ROWS;
+
+LOAD CSV WITH HEADERS FROM 'file:///LyonSchool_preprocessed.csv' AS row
+MATCH (src:Person {Pid : row.SRC})
+MATCH (dest:Person {Pid : row.DEST})
+CREATE (src)-[r:follows {FREQ : row.NormFreq} ]->(dest)
+
+
+
+
+
