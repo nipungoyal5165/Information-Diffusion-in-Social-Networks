@@ -10,13 +10,18 @@ This project is a full-stack web application that simulates how messages and ide
 2. **Graph Analytics**: View key centrality metrics, such as node influence and cluster behavior.
 3. **Dataset Integration**: Analyze diffusion across real-world datasets (VS13, VS15, LyonSchool).
 4. **Interactive UI**: Control simulation speed, steps, and see real-time state transitions.
-5. **Visualization**: Explore how community structures and node centrality impact information spread.
 
 ---
 
 ## Demo Video
 
-A presentation demo is available in the final submission ZIP.
+A presentation demo is available on Google Drive accessible through https://drive.google.com/file/d/157biwblCbeccgh32D812i0iQPZG1u23o/view?usp=sharing
+
+---
+
+## Presentation 
+
+A presentation file of the R&D Report is available on Google Drive accessible through https://docs.google.com/presentation/d/1rDQm-mNyaH6ntyVr-kmOXfzOaGOzFpCO/edit?usp=sharing&ouid=118211644123601402436&rtpof=true&sd=true
 
 ---
 
@@ -108,6 +113,9 @@ http://localhost:5173
 capstone/
 ├── backend/
 │   ├── app.py                # Flask backend server
+│   ├── first_ds.csv          # VS13 Dataset csv
+│   ├── second_ds.csv         # VS15 Dataset csv
+│   ├── third_ds.csv          # LyonSchool Dataset csv
 │   ├── simulation/           # Agent-based simulation logic (AgentPy)
 │   ├── static/               # Static files if needed by Flask
 │   ├── requirements.txt      # Backend dependencies
@@ -128,7 +136,7 @@ capstone/
 ## Usage Instructions
 
 1. **Start both frontend and backend** as described above.
-2. Upload or select a dataset from the UI.
+2. Select a dataset from the UI.
 3. Start, pause, or reset the simulation.
 4. Observe real-time network diffusion and centrality metrics.
 5. Switch datasets to compare diffusion patterns.
