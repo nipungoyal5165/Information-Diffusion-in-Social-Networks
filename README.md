@@ -21,7 +21,19 @@ A demo video of the MVP is available on Google Drive accessible through https://
 
 ## Presentation 
 
-A presentation file of the R&D Report is available on Google Drive accessible through https://docs.google.com/presentation/d/1rDQm-mNyaH6ntyVr-kmOXfzOaGOzFpCO/edit?usp=sharing&ouid=118211644123601402436&rtpof=true&sd=true
+A PowerPoint presentation of the R&D Report is available on Google Drive accessible through https://docs.google.com/presentation/d/1rDQm-mNyaH6ntyVr-kmOXfzOaGOzFpCO/edit?usp=sharing&ouid=118211644123601402436&rtpof=true&sd=true
+
+---
+
+## R&D Report
+
+The R&D Report pdf is available on Google drive accessible through https://drive.google.com/file/d/1ot1l9wFNyFRwE19tBQOA_beBgjLHeia2/view?usp=sharing
+
+---
+
+## MVP Report
+
+The MVP report pdf is available on Google drive accessible through https://drive.google.com/file/d/1L7IFzJgtp5_3yrZyKZbL4QnC5hYogGj9/view?usp=sharing
 
 ---
 
